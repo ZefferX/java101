@@ -69,7 +69,8 @@ public class Main {
     }
 
     private static boolean siNoTieneSuficienteDinero(Integer dineroCliente, Integer totalCompra) {
-        return dineroCliente < totalCompra;
+        Boolean hasRequiredMoney = dineroCliente < totalCompra;
+        return hasRequiredMoney;
     }
     private static boolean siNoTieneSuficienteEdad(Integer edadCliente) {
         Boolean isUsa= false;

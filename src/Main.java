@@ -11,7 +11,7 @@ public class Main {
         // Definir los valores de las variables
 
         //Esto serian variables iniciales
-        Integer dineroCliente = 5000;
+        Integer dineroCliente = 500;
         Integer edadCliente = 22;
         Integer cantidadAComprar = 8;
         Boolean compradorFlexible = false;
@@ -44,7 +44,7 @@ public class Main {
 
 
     private static void noCumpleConLaEdadRequeridaException() {
-        String message = "Edad requerida no cumplida, no puede continuar";
+        String message = "Edad requerida no cumplida, no puede continuar ";
         System.out.println(message);
         throw new GlobalException(message);
 

@@ -68,8 +68,8 @@ public class Main {
         throw new GlobalException("Executing mensajeErrorFondosInsuficientesException");
     }
 
-    private static boolean siNoTieneSuficienteDinero(Integer dineroCliente, Integer totalCompra) {
-        return dineroCliente < totalCompra;
+    private static boolean siNoTieneSuficienteDinero(Integer dinero, Integer totalCompra) {
+        return dinero > totalCompra;
     }
     private static boolean siNoTieneSuficienteEdad(Integer edadCliente) {
         Boolean isUsa= false;
